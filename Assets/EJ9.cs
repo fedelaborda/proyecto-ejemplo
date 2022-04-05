@@ -32,6 +32,9 @@ public class EJ9 : MonoBehaviour
     {
 
         Debug.Log("Nombre: " + nom1 + " Capital Aportado $: " + capital1 + " Porcentaje del capital: % " + PorcentajeAportado1 + " Monto total aportado: $ " + montototal);
+        Debug.Log("Nombre: " + nom2 + " Capital Aportado $: " + capital2 + " Porcentaje del capital: % " + PorcentajeAportado2 + " Monto total aportado: $ " + montototal);
+        Debug.Log("Nombre: " + nom3 + " Capital Aportado $: " + capital3 + " Porcentaje del capital: % " + PorcentajeAportado3 + " Monto total aportado: $ " + montototal);
+        montototal = capital1 + capital2 + capital3;
 
     }
 
